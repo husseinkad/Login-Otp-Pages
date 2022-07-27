@@ -55,112 +55,91 @@ class _OtpPageState extends State<OtpPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   SizedBox(height: 64, width:  68,
-                    child: Container(
-                      decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(12)
-                      ),
-                      child: TextFormField(
-                        onChanged: (value){
-                          if(value.length == 1){
-                            FocusScope.of(context).nextFocus();
-                          }
-                        },
-                        onSaved: (pin1){},
-                        decoration: InputDecoration(
-                          fillColor: Colors.blue,
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: const BorderSide(color: Colors.blue)),
-                          hintText: '0',
-                          hintStyle: const TextStyle(color: Colors.white),
-                        ),
-                        textAlign: TextAlign.center,
-                        inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
-                        keyboardType: TextInputType.number,
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 64, width:  68,
-                    child: Container(
-                      decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(12)
-                      ),
-                      child: TextFormField(
-                        onChanged: (value){
-                          if(value.length == 1){
-                            FocusScope.of(context).nextFocus();
-                          }
-                        },
-                        onSaved: (pin1){},
-                        decoration: InputDecoration(
-                          fillColor: Colors.blue,
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: const BorderSide(color: Colors.blue)),
-                          hintText: '0',
-                          hintStyle: const TextStyle(color: Colors.white),
-                        ),
-                        textAlign: TextAlign.center,
-                        inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
-                        keyboardType: TextInputType.number,
-                      ),
-                    ),
-                  ),
-                  SizedBox(height: 64, width:  68,
-                    child: Container(
-                      decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(12)
-                      ),
-                      child: TextFormField(
-                        onChanged: (value){
-                          if(value.length == 1){
-                            FocusScope.of(context).nextFocus();
-                          }
-                        },
-                        onSaved: (pin1){},
-                        decoration: InputDecoration(
+                    child: TextFormField(
+                      onChanged: (value){
+                        if(value.length == 1){
+                          FocusScope.of(context).nextFocus();
+                        }
+                      },
+                      onSaved: (pin1){},
+                      decoration: InputDecoration(
                         filled: true,
-                          fillColor: Colors.blue,
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: const BorderSide(color: Colors.blue)),
-                          hintText: '0',
-                          hintStyle: const TextStyle(color: Colors.white),
-                        ),
-                        textAlign: TextAlign.center,
-                        inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
-                        keyboardType: TextInputType.number,
+                        fillColor: Colors.blue,
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: const BorderSide(color: Colors.blue)),
+                        hintText: '0',
+                        hintStyle: const TextStyle(color: Colors.white),
                       ),
+                      textAlign: TextAlign.center,
+                      inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
+                      keyboardType: TextInputType.number,
                     ),
                   ),
                   SizedBox(height: 64, width:  68,
-                    child: Container(
-                      decoration: BoxDecoration(
-                          color: Colors.blue,
-                          borderRadius: BorderRadius.circular(12)
+                    child: TextFormField(
+                      onChanged: (value){
+                        if(value.length == 1){
+                          FocusScope.of(context).nextFocus();
+                        }
+                      },
+                      onSaved: (pin1){},
+                      decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Colors.blue,
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: const BorderSide(color: Colors.blue)),
+                        hintText: '0',
+                        hintStyle: const TextStyle(color: Colors.white),
                       ),
-                      child: TextFormField(
-                        onChanged: (value){
-                          if(value.length == 1){
-                            FocusScope.of(context).nextFocus();
-                          }
-                        },
-                        onSaved: (pin1){},
-                        decoration: InputDecoration(
-                          fillColor: Colors.blue,
-                          border: OutlineInputBorder(
-                              borderRadius: BorderRadius.circular(12),
-                              borderSide: const BorderSide(color: Colors.blue)),
-                          hintText: '0',
-                          hintStyle: const TextStyle(color: Colors.white),
-                        ),
-                        textAlign: TextAlign.center,
-                        inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
-                        keyboardType: TextInputType.number,
+                      textAlign: TextAlign.center,
+                      inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
+                      keyboardType: TextInputType.number,
+                    ),
+                  ),
+                  SizedBox(height: 64, width:  68,
+                    child: TextFormField(
+                      onChanged: (value){
+                        if(value.length == 1){
+                          FocusScope.of(context).nextFocus();
+                        }
+                      },
+                      onSaved: (pin1){},
+                      decoration: InputDecoration(
+                      filled: true,
+                        fillColor: Colors.blue,
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: const BorderSide(color: Colors.blue)),
+                        hintText: '0',
+                        hintStyle: const TextStyle(color: Colors.white),
                       ),
+                      textAlign: TextAlign.center,
+                      inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
+                      keyboardType: TextInputType.number,
+                    ),
+                  ),
+                  SizedBox(height: 64, width:  68,
+                    child: TextFormField(
+                      onChanged: (value){
+                        if(value.length == 1){
+                          FocusScope.of(context).nextFocus();
+                        }
+                      },
+                      onSaved: (pin1){},
+                      decoration: InputDecoration(
+                        filled: true,
+                        fillColor: Colors.blue,
+                        border: OutlineInputBorder(
+                            borderRadius: BorderRadius.circular(12),
+                            borderSide: const BorderSide(color: Colors.blue)),
+                        hintText: '0',
+                        hintStyle: const TextStyle(color: Colors.white),
+                      ),
+                      textAlign: TextAlign.center,
+                      inputFormatters: [LengthLimitingTextInputFormatter(1), FilteringTextInputFormatter.digitsOnly],
+                      keyboardType: TextInputType.number,
                     ),
                   ),
 
